@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#word {
+  font-size: 80px;
+}
+
+#spell {
+  font-size: 80px;
+  color: grey;
+}
+
+#text {
+  font-size: 20px;
+}
