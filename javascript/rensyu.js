@@ -54,7 +54,7 @@
     if (e.key !== spell[num]){
       miss++;
       text.textContent = 'ミスカウント：' + miss +'　　残り：'+ keys.length;
-      if (miss > 0){
+      if (miss > 20){
         location.href = 'finish.html';
       }
       return;

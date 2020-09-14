@@ -6,7 +6,7 @@
       location.href = 'rensyu.html';
     }
     else if (f.key === 'Enter'){
-      location.href = 'title.html';
+      location.href = 'index.html';
     }
   })
 }
